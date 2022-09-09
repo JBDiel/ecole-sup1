@@ -1,0 +1,335 @@
+*{
+   
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes text1 {
+   0% {
+     transform: translate(-500%, 75%);
+   }
+   100% {
+      transform: translate(-50%,25%);
+   }
+ }
+ @keyframes text0 {
+   0% {
+     transform: translate(500%, 75%);
+   }
+   100% {
+      transform: translate(0%,0%);
+   }
+ }
+@keyframes text {
+   0% {
+     transform: translate(-500%, 75%);
+   }
+   100% {
+      transform: translate(-50%,25%);
+      
+   }
+ }
+
+img{
+   width: 100%;
+}
+nav{
+   background: #333;
+   width: 700px;
+   height: 100px;
+   color: aliceblue;
+   font-size: 20px;
+   
+}
+a{
+   text-decoration: none;
+   transition: color 2s;
+
+}
+a:hover{
+   color: aliceblue;
+}
+.presentation{
+   
+   width: 700px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: relative; 
+}
+.presentation .p1{
+   animation: text1 2s;
+   position: absolute;
+   top: 45px;
+   left: 70%;
+   transform: translate(-50%,25%);
+   font-size: 20px; 
+}
+h2{
+   animation: text0 1s;
+   text-align: center;
+   color: #000;
+}
+.formation{ 
+   width: 700px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: relative; 
+}
+.bts{
+   position: absolute;
+   top: -50px;
+   left: 10%;
+   transform: translate(-50%,25%);
+   font-size: 20px; 
+   animation: text 2s;
+}
+.licence{
+   position: absolute;
+   top: 105px;
+   left: 10%;
+   transform: translate(-50%,25%);
+   font-size: 20px; 
+   animation: text 4s;
+}
+.master{
+   position: absolute;
+   top: 245px;
+   left: 10%;
+   transform: translate(-50%,25%);
+   font-size: 20px; 
+   animation: text 6s;
+   
+}
+
+.formation1{
+   /* background-image: url('images/portrait-3157821_1280.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+    position: relative; 
+ }
+ .bts1{
+    position: absolute;
+    top: -50px;
+    left: 20%;
+    transform: translate(-50%,25%);
+    font-size: 20px; 
+    
+ }
+ .licence1{
+    position: absolute;
+    top: 105px;
+    left: 20%;
+    transform: translate(-50%,25%);
+    font-size: 20px; 
+    
+ }
+ .master1{
+    position: absolute;
+    top: 245px;
+    left: 30%;
+    transform: translate(-50%,25%);
+    font-size: 20px; 
+    
+ }
+
+.fin{
+   position: relative;
+   width: 700px;
+   background: #333;
+   
+}
+.f1{
+   width: 300px;
+   border-radius: 2px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: absolute;
+   top: -90px;
+   left: 25%;
+   transform: translate(-50%,25%);
+   font-size: 20px; 
+   padding: 10px 10px 10px 10px;
+   background: #333;
+   animation: text3 3s;
+   font-style: italic;
+}
+@keyframes text3 {
+   0% {
+     transform: translate(-500%, 0%);
+   }
+   100% {
+      transform: translate(-50%,25%);
+      
+   }
+ }
+.con{
+   width: 300px;
+   border-radius: 2px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: absolute;
+   top: 10px;
+   left: 75%;
+   transform: translate(-50%,25%);
+   font-size: 20px;
+   padding: 10px 10px 10px 10px; 
+   animation: text 4s;
+}
+.con img{
+   width: 45px;
+}
+footer p{
+   position: relative;
+   top: 650px;
+   background-color: #333;
+   text-align: center;
+   width: 700px;
+   font-size: 20px;
+}
+
+@media (min-width:750px) {
+   footer p{
+   position: relative;
+   top: 650px;
+   background-color: #333;
+   text-align: center;
+   width: 100%;
+}
+
+   * {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #161917;
+   }
+   nav{
+      width: 100%;
+      
+   }
+   .presentation{
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+      position: relative;  
+   }
+   .presentation .p1{
+      height: 80%;
+      text-align: center;
+      animation: text1 2s;
+      position: absolute;
+      top: -80px;
+      left: 70%;
+      transform: translate(-50%,25%);
+      font-size: 25px; 
+   }
+   h2{
+      animation: text0 3s;
+   }
+   img {
+     width: 100%;
+     height: auto;
+   }
+   .formation{  
+       width: 100%;
+       border-radius: 10px;
+       box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+       position: relative; 
+       color: aliceblue;
+       
+    }
+    .bts{
+      position: absolute;
+      top: 5%;
+      left: 20%;
+      transform: translate(-50%,25%);
+      font-size: 20px; 
+      animation: text 3s;
+      border-radius: 10px;
+       box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+       width: 300px;
+   }
+   .licence{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%,25%);
+      font-size: 20px; 
+      animation: text 3s;
+      border-radius: 10px;
+       box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+       width: 300px;
+   }
+   .master{
+      position: absolute;
+      top: 55%;
+      left: 80%;
+      transform: translate(-50%,25%);
+      font-size: 20px; 
+      animation: text s;
+      border-radius: 10px;
+       box-shadow: 0px 10px 15px 6px rgb(233, 232, 236); 
+       width: 300px;
+   }
+   .formation1{ 
+       width: 100%;
+       border-radius: 10px;
+       box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+       position: relative; 
+      }
+    .bts1{
+       position: absolute;
+       top: 5%;
+      left: 15%;
+       transform: translate(-50%,25%);
+       font-size: 20px; 
+       
+    }
+    .licence1{
+       position: absolute;
+       top: 30%;
+       left: 35%;
+       transform: translate(-50%,25%);
+       font-size: 20px; 
+       
+    }
+    .master1{
+       position: absolute;
+       top: 55%;
+       left: 65%;
+       transform: translate(-50%,25%);
+       font-size: 20px; 
+       
+    }
+    .fin{
+      position: relative;
+      width: 100%;
+      background: #333;
+   }
+   .f1{
+      width: 500px;
+      border-radius: 2px;
+      box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+      position: absolute;
+      top: -90px;
+      left: 25%;
+      transform: translate(-50%,25%);
+      font-size: 20px; 
+      padding: 10px 10px 10px 10px;
+      background: #333;
+      animation: text3 3s;
+
+   }
+   .con{
+      width: 500px;
+      border-radius: 2px;
+      box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+      position: absolute;
+      top: 10px;
+      left: 75%;
+      transform: translate(-50%,25%);
+      font-size: 20px;
+      padding: 10px 10px 10px 10px; 
+      animation: text 4s;
+   }
+ }
+ 
+ 

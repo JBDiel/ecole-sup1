@@ -1,0 +1,116 @@
+.formation{
+   position: relative;
+}
+.bts{
+   position: absolute;
+   top: 10%;
+   left: 40%;
+   transform: translate(50%,25%);
+}
+@media (min-width:500px) {
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #156530;
+  }
+  .logo {
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+  }
+  .presentation {
+    background-color: rgb(0, 255, 102);
+    width: 100%;
+    height: 500px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 215px;
+  }
+  .p1 {
+    position: relative;
+    text-align: left;
+    left: 50%;
+    width: 550px;
+    top: 150px;
+    font-size: 20px;
+  }
+  .formation {
+    width: 100%;
+    height: 500px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 720px;
+    padding-top: 35px;
+  }
+  .formation h2 {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .bts {
+    
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px #156530;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    left: 5%;
+    position: absolute;
+   top: 10%;
+   left: 40%;
+   transform: translate(50%,25%);
+  }
+  .licence {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px #156530;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    left: 36%;
+    top: -82px;
+  }
+  .master {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px #156530;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    left: 68%;
+    top: -160px;
+  }
+  .fin {
+    width: 100%;
+    height: 500px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 1260px;
+    padding-top: 35px;
+  }
+  .f1 {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px #156530;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    margin-left: 50px;
+  }
+  .f2 {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 2px #156530;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    height: auto;
+    left: 68%;
+    top: -82px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+

@@ -1,0 +1,28 @@
+h1{
+   font-size: 48px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+   opacity: 0.4;
+}
+.box{
+   margin:0 auto;
+   width: 750px;
+   top: 50px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: relative; 
+   color: rgb(66, 47, 110);
+   
+}
+
+.box img{
+   width: 100%;
+   opacity: 0.4;
+}
+@media screen and (max-width:300px) {
+   img{
+      width: 100%;
+   }
+   
+   
+}
